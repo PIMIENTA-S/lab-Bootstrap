@@ -1,0 +1,62 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    font-weight: 500;
+}
+
+.nav{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+
+.nav .opciones{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 50%;
+    margin: auto 0;
+}
+
+.nav img{
+    max-height: 100px;
+}
+
+.container{
+    margin: 10% auto;
+    /* text-align: center; */
+    
+}
+
+form{
+    margin-top: 30px;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.hamburguesa{
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+}
+#menu {
+    display: flex;
+}
+
+@media screen and (max-width: 540px){
+    .opciones {
+        display: none !important;
+        flex-direction: column;
+    }
+
+    .hamburguesa{
+        display: block;
+    }
+    .menu#mostrar {
+        display: flex;
+    }
+
+}
